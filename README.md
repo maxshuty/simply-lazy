@@ -15,15 +15,15 @@ SimplyLazy().lazy(selector)
 Or you can pass it options to get call backs like so:
 
 ```
-          SimplyLazy({
-                        onImageLoad: (imgEl) => {
-                            // Called after an image loads
-                        },
-                        onImageError: function(imgEl) {
-                           // Called if there is an error loading the image
-                        },
-                        defaultImage: 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' // An empty image, can be replaced with a known image URL
-                    }).lazy(selector);
+SimplyLazy({
+  onImageLoad: (imgEl) => {
+    // Called after an image loads
+  },
+  onImageError: function(imgEl) {
+    // Called if there is an error loading the image
+  },
+  defaultImage: 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' // An empty image, can be replaced with a known image URL
+}).lazy(selector);
 ```
 
 Where `selector` can be a class name, or any selector you would typically use when using `el.querySelectorAll`. The default image can be
