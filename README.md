@@ -2,13 +2,7 @@
 
 A simple, lightweight (0.5kb), pure JavaScript image lazy loader that even works in IE\*
 
-For IE to work you must add this Polyfill script to your app which will only be loaded in browsers that do not support `IntersectionObserver` (like IE). All other browsers will not load anything when using this script from Polyfill.io:
-
-```
-<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-```
-
-# Usage
+## Usage
 
 Lazy loading doesn't have to be complicated. It's as simple as:
 
@@ -56,4 +50,14 @@ In your HTML you only need to set a `data-src` equal to your image `src`. **Note
 
 ```
 <img data-src"/path/to/img.jpg" />
+```
+
+## Browser Support
+
+This is supported in all major browsers and will even work in IE with one simple tweak.
+
+For IE to work you must add this Polyfill script to your app which will only be loaded in browsers that do not support `IntersectionObserver` (like IE). All other browsers will not load anything when using this script from Polyfill.io:
+
+```
+<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
 ```
