@@ -1,3 +1,5 @@
+/* SimplyLazy - Author: Max Poshusta - License: ISC - https://github.com/maxshuty/simply-lazy */
+
 let SimplyLazy = (options) => {
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
