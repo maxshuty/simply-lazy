@@ -1,6 +1,6 @@
 # Simply Lazy
 
-A simple, lightweight (0.5kb), pure JavaScript image lazy loader that even works in IE\*
+A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works in IE\*
 
 ## Usage
 
@@ -26,9 +26,10 @@ SimplyLazy().lazy(selector)
 
 Currently there are three callbacks:
 
-1. `onImageLoad` - this is called after an image loads and it will receive the `imageElement`.
-2. `onImageError` - this is called if there is an error loading the image (i.e. 404), it also receives the `imageElement`.
-3. `defaultImage` - this is _only_ called `onImageError` and if it has a value. This can be useful if there is an error loading an image like a 404 but you still want to show a default placeholder image. The value you use for `defaultImage` will be set to the `src` of the `<img>` element. The example below is a `base64` string of an empty image placeholder.
+1. `onImageLoad` - this is called after an image loads and it will receive the `imageElement` as a parameter.
+2. `onImageError` - this is called if there is an error loading the image (i.e. 404), it also receives the `imageElement` as a parameter.
+3. `allImagesFinished` - this is called when all images have been processed, regardless if there was an error loading any or not. This receives no parameters.
+4. `defaultImage` - this is _only_ called `onImageError` and if it has a value. This can be useful if there is an error loading an image like a 404 but you still want to show a default placeholder image. The value you use for `defaultImage` will be set to the `src` of the `<img>` element. The example below is a `base64` string of an empty image placeholder.
 
 Here is an example usage with all of the options:
 
@@ -37,8 +38,11 @@ SimplyLazy({
   onImageLoad: (imgEl) => {
     // Called after an image loads
   },
-  onImageError: function(imgEl) {
+  onImageError: (imgEl) => {
     // Called if there is an error loading the image
+  },
+  allImagesFinished: () => {
+    // Called after all images with the given selector have finished
   },
   defaultImage: 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' // An empty image, can be replaced with a known image URL
 }).lazy(selector);
