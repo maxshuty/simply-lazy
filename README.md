@@ -22,9 +22,9 @@ Then initializing the lazy loader:
 SimplyLazy().lazy(selector)
 ```
 
-## Additionally you can pass it an options object to get callbacks.
+## Additionally you can pass it an `options` object to get callbacks or set default information.
 
-Currently there are three callbacks:
+Currently there are three callbacks and `defaultImage`:
 
 1. `onImageLoad` - this is called after an image loads and it will receive the `imageElement` as a parameter.
 2. `onImageError` - this is called if there is an error loading the image (i.e. 404), it also receives the `imageElement` as a parameter.
