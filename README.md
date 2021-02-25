@@ -66,6 +66,10 @@ For IE to work you must add this Polyfill script to your app which will only be 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
 ```
 
+## Contributions
+
+Contributions are always welcome. Please fork this repo and submit a PR for any issues.
+
 ## Contributors
 
 Max Poshusta
