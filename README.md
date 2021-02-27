@@ -19,7 +19,7 @@ Then setting your images up with a `data-src` attribute:
 Then initializing the lazy loader:
 
 ```
-SimplyLazy().lazy(selector)
+SimplyLazy(optionalOptions).lazy(selector)
 ```
 
 ### Additionally you can pass it an `options` object to get callbacks or set default information.
