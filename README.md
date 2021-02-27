@@ -22,7 +22,7 @@ Then initializing the lazy loader:
 SimplyLazy().lazy(selector)
 ```
 
-## Additionally you can pass it an `options` object to get callbacks or set default information.
+### Additionally you can pass it an `options` object to get callbacks or set default information.
 
 Currently there are three callbacks and `defaultImage`:
 
