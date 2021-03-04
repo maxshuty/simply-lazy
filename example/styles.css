@@ -17,6 +17,7 @@ h1 {
 }
 
 img {
+  margin: 0.5em;
   min-height: 500px;
   min-width: 500px;
 }
