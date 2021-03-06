@@ -1,5 +1,6 @@
 body {
   font-family: Avenir, Helvetica, sans-serif;
+  background-color: #e2e1e0;
   color: #363636;
 }
 
@@ -7,8 +8,24 @@ h1 {
   text-align: center;
 }
 
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 .container {
   width: 100%;
+}
+
+.counter-container {
+  position: sticky;
+  top: 1em;
 }
 
 .img-grid {
