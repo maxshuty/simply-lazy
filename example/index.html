@@ -4,13 +4,22 @@
     <title>Simply Lazy Example</title>
 
     <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Polyfill for IE support -->
+    <script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+
+    <!-- Loading the simplyLazy script -->
     <script type="text/javascript" src="../dist/simplyLazy.min.js"></script>
+
+    <!-- Custom JS script where we initialize the plugin -->
     <script type="text/javascript" src="./index.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="counter-container">
-        <div class="card">Images loaded: <span id="counter"></span> of 42</div>
+        <div class="card">
+          <p class="card-title">Images loaded: <span id="counter"></span> of 42</p>
+        </div>
       </div>
 
       <div class="img-grid">

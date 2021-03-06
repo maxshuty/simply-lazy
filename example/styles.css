@@ -19,6 +19,12 @@ h1 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
 .container {
   width: 100%;
 }
