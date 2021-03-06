@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const counterEl = document.getElementById('counter');
   SimplyLazy({
     onImageLoad: () => {
-      debugger;
+      // TODO: Max P - pull this logic out into it's own function
       counter++;
       counterEl.innerHTML = counter;
     },
