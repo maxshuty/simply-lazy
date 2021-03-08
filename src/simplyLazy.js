@@ -1,4 +1,4 @@
-/* By Max Poshusta | v1.0.2 | https://github.com/maxshuty/simply-lazy */
+/* By Max Poshusta | v1.0.3 | https://github.com/maxshuty/simply-lazy */
 
 let SimplyLazy = (options) => {
   const observer = new IntersectionObserver((entries, observer) => {
@@ -13,6 +13,7 @@ let SimplyLazy = (options) => {
         // Image has not been loaded so load it
         const sourceUrl = image.getAttribute('data-src');
         image.setAttribute('src', sourceUrl);
+        image.removeAttribute('data-src');
 
         if (!options) {
           observer.unobserve(image);
