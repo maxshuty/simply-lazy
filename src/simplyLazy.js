@@ -1,6 +1,6 @@
-/* By Max Poshusta | v1.0.3 | https://github.com/maxshuty/simply-lazy */
+/* By Max Poshusta | v1.0.4 | https://github.com/maxshuty/simply-lazy */
 
-let SimplyLazy = (options) => {
+const SimplyLazy = (options) => {
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if (entry.intersectionRatio > 0 || entry.isIntersecting) {
