@@ -22,6 +22,11 @@ h1 {
   padding: 0.5em;
 }
 
+.card-sticky {
+  position: sticky;
+  top: 1.5em;
+}
+
 .card-title {
   font-weight: bold;
   font-size: 18px;
