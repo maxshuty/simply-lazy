@@ -8,6 +8,11 @@ h1 {
   text-align: center;
 }
 
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
 .card {
   background: #fff;
   border-radius: 2px;
@@ -53,4 +58,16 @@ img {
   min-height: 500px;
   min-width: 500px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.github-icon {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  content: '';
+  display: inline-block;
+  background-image: url('../assets/GitHub-Mark-32px.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 0.5em;
 }
