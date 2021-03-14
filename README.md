@@ -2,6 +2,10 @@
 
 A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works in IE\*
 
+## DEMO
+
+[View the demo here](https://maxshuty.github.io/simply-lazy/)
+
 ## Usage
 
 Lazy loading doesn't have to be complicated. It's as simple as:
