@@ -24,7 +24,7 @@ h1 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   overflow: hidden;
   overflow-y: scroll;
-  padding: 0.5em;
+  padding: 0 1em;
 }
 
 .card-sticky {
@@ -32,10 +32,9 @@ h1 {
   top: 1.5em;
 }
 
-.card-title {
+.card-section-heading {
   font-weight: bold;
   font-size: 18px;
-  text-align: center;
 }
 
 .container {
@@ -46,6 +45,10 @@ h1 {
 
 .counter-container {
   top: 1em;
+}
+
+.images-loaded-heading {
+  text-align: center;
 }
 
 .img-grid {
@@ -60,14 +63,21 @@ img {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.github-icon {
+.icon {
   height: 32px;
   width: 32px;
   cursor: pointer;
   content: '';
   display: inline-block;
-  background-image: url('../assets/GitHub-Mark-32px.png');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.github-icon {
+  background-image: url('./assets/GitHub-Mark-32px.png');
   margin-right: 0.5em;
+}
+
+.linkedin-icon {
+  background-image: url('./assets/linked-in-logo.svg');
 }
