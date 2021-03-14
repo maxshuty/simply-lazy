@@ -18,8 +18,7 @@
     <div class="container">
       <div class="counter-container">
         <div class="card card-sticky">
-          <p class="card-title">
-            <!-- TODO: Max P - add github URL -->
+          <p class="card-section-heading images-loaded-heading">
             Images loaded: <span id="counter"></span> of
             <a href="https://www.youtube.com/watch?v=aboZctrHfK8&t=88s">42</a>
           </p>
@@ -30,7 +29,6 @@
       <div class="img-grid">
         <h1>Fast & Simple Lazy Loading</h1>
 
-        <!-- TODO: Max P - create grid with different image sizes -->
         <img data-src="https://placebear.com/500/500" alt="Placeholder image from placebear.com" />
         <img data-src="http://placekitten.com/500/500" alt="Placeholder image from placekitten.com" />
         <img data-src="https://placedog.net/500/500" alt="Placeholder image from placedog.com" />
@@ -83,10 +81,19 @@
 
       <div class="repo-info-container">
         <div class="card card-sticky">
-          <a href="https://github.com/maxshuty/simply-lazy" class="align-center">
-            <i class="github-icon"></i>
-            View on GitHub
+          <p class="card-section-heading">View on:</p>
+          <a href="https://github.com/maxshuty/simply-lazy" class="align-center" aria-label="View project on GitHub">
+            <i class="icon github-icon" aria-hidden="true"></i>
           </a>
+
+          <p class="card-section-heading">Author:</p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/maxposhusta/"
+              class="icon linkedin-icon"
+              aria-label="View the author's LinkedIn profile"
+            ></a>
+          </p>
         </div>
       </div>
     </div>
