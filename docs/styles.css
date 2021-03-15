@@ -40,6 +40,10 @@ h1 {
   height: 600px;
 }
 
+.info-card {
+  width: 300px;
+}
+
 .container {
   width: 100%;
   display: flex;
