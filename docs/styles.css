@@ -1,10 +1,11 @@
 body {
   font-family: Avenir, Helvetica, sans-serif;
-  background-color: #e2e1e0;
+  background-color: whitesmoke;
   color: #363636;
 }
 
 h1 {
+  color: tomato;
   text-align: center;
 }
 
