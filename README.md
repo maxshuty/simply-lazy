@@ -8,7 +8,7 @@ A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works
 
 ## Usage
 
-Lazy loading doesn't have to be complicated. It's as simple as:
+Lazy loading doesn't have to be complicated. It's as simple as these 3 steps:
 
 ```
 <script type="text/javascript" src="./simplyLazy.min.js"></script>
