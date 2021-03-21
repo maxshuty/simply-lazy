@@ -82,9 +82,13 @@ img {
 
 .github-icon {
   background-image: url('./GitHub-Mark-32px.png');
-  margin-right: 0.5em;
 }
 
 .linkedin-icon {
   background-image: url('./linked-in-logo.svg');
+}
+
+.stackoverflow-icon {
+  height: 37px;
+  background-image: url('./stackoverflow-logo.svg');
 }
