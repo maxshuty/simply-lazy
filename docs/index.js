@@ -25,5 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
       updateCounter();
       addLoadedImageUrlToCard(el);
     },
+    defaultImage: './defaultImage.png',
   }).lazy('img');
 });
