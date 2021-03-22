@@ -9,6 +9,13 @@ h1 {
   text-align: center;
 }
 
+.author-info {
+  margin-top: 0;
+  text-align: center;
+  font-size: 18px;
+  color: darkslategrey;
+}
+
 .card {
   background: #fff;
   border-radius: 2px;
