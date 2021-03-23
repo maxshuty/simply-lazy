@@ -26,14 +26,23 @@ Then initializing the lazy loader:
 SimplyLazy(optionalOptions).lazy(selector)
 ```
 
-### Additionally you can pass it an `options` object to get callbacks or set default information.
+## Additionally you can pass it an `options` object to get callbacks or set default information.
 
-Currently there are three callbacks and `defaultImage`:
+## Callbacks passed in the options `{}`
 
-1. `onImageLoad` - this is called after an image loads and it will receive the `imageElement` as a parameter.
-2. `onImageError` - this is called if there is an error loading the image (i.e. 404), it also receives the `imageElement` as a parameter.
-3. `allImagesFinished` - this is called when all images have been processed, regardless if there was an error loading any or not. This receives no parameters.
-4. `defaultImage` - this is _only_ called `onImageError` and if it has a value. This can be useful if there is an error loading an image like a 404 but you still want to show a default placeholder image. The value you use for `defaultImage` will be set to the `src` of the `<img>` element. The example below is a `base64` string of an empty image placeholder.
+| Function              | Description                                                                                                 |
+| :-------------------- | :---------------------------------------------------------------------------------------------------------- |
+| `onImageLoad(imgEl)`  | Called after an image loads and it will receive the `imageElement` as a parameter                           |
+| `onImageError(ImgEl)` | Called if there is an error loading the image (i.e. 404), it will receive the `imageElement` as a parameter |
+| `allImagesFinished()` | Called when all images have been processed, regardless if there was an error loading or not                 |
+
+## Parameters
+
+| Parameter      | Type   | Values                                 | Default |
+| :------------- | :----- | :------------------------------------- | :-----: |
+| `defaultImage` | String | path to default image or base64 string | `null`  |
+
+`defaultImage` is _only_ called `onImageError` and if it has a value. This can be useful if there is an error loading an image like a 404 but you still want to show a default placeholder image. The value you use for `defaultImage` will be set to the `src` of the `<img>` element. The example below is a `base64` string of an empty image placeholder.
 
 Here is an example usage with all of the options:
 
