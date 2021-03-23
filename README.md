@@ -33,7 +33,7 @@ You can pass the instance an optional `options` object to get callbacks or set d
 | Function              | Description                                                                                                 |
 | :-------------------- | :---------------------------------------------------------------------------------------------------------- |
 | `onImageLoad(imgEl)`  | Called after an image loads and it will receive the `imageElement` as a parameter                           |
-| `onImageError(ImgEl)` | Called if there is an error loading the image (i.e. 404), it will receive the `imageElement` as a parameter |
+| `onImageError(imgEl)` | Called if there is an error loading the image (i.e. 404), it will receive the `imageElement` as a parameter |
 | `allImagesFinished()` | Called when all images have been processed, regardless if there was an error loading or not                 |
 
 ## Parameters
