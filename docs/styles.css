@@ -101,7 +101,6 @@ img {
 }
 
 .email-qr-code-icon {
-  cursor: pointer;
   height: 40px;
   width: 40px;
   min-width: 0;
