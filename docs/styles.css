@@ -49,6 +49,7 @@ h1 {
   align-items: center;
   min-height: 75px;
   width: 300px;
+  overflow: hidden;
 }
 
 .container {
