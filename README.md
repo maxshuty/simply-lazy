@@ -26,7 +26,7 @@ Then initializing the lazy loader:
 SimplyLazy(optionalOptions).lazy(selector)
 ```
 
-You can pass the instance an optional `options` object to get callbacks or set default information.
+Additionally there is an `options` object you can use to get callbacks or set default information.
 
 ## Callbacks
 
