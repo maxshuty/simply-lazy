@@ -10,17 +10,19 @@ A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works
 
 Lazy loading doesn't have to be complicated. It's as simple as these 3 steps:
 
+1. Add the script:
+
 ```
 <script type="text/javascript" src="./simplyLazy.min.js"></script>
 ```
 
-Then setting your images up with a `data-src` attribute:
+2. Setting your images up with a `data-src` attribute:
 
 ```
 <img data-src="/path/to/img.jpg" />
 ```
 
-Then initializing the lazy loader:
+3. Initialize the lazy loader:
 
 ```
 SimplyLazy(optionalOptions).lazy(selector)
