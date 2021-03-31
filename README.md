@@ -4,7 +4,7 @@ A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works
 
 ## DEMO
 
-[View the demo here](https://maxshuty.github.io/simply-lazy/)
+[View the live demo here](https://maxshuty.github.io/simply-lazy/)
 
 ## Usage
 
