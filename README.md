@@ -81,7 +81,9 @@ For IE to work you must add this Polyfill script to your app which will only be 
 
 ## Contributions
 
-Contributions are always welcome. Please fork this repo and submit a PR for any issues or feature requests, or create an issue [here](https://github.com/maxshuty/simply-lazy/issues)
+Contributions are always welcome. Please fork this repo and submit a PR.
+
+Create an issue [here](https://github.com/maxshuty/simply-lazy/issues).
 
 ## Contributors
 
