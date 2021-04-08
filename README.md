@@ -38,7 +38,6 @@ Additionally there is an `options` object you can use to get callbacks or set de
 | :-------------------- | :---------------------------------------------------------------------------------------------------------- |
 | `onImageLoad(imgEl)`  | Called after an image loads and it will receive the `imageElement` as a parameter                           |
 | `onImageError(imgEl)` | Called if there is an error loading the image (i.e. 404), it will receive the `imageElement` as a parameter |
-| `allImagesFinished()` | Called when all images have been processed, regardless if there was an error loading or not                 |
 
 ## Parameters
 
@@ -57,9 +56,6 @@ SimplyLazy({
   },
   onImageError: (imgEl) => {
     // Called if there is an error loading the image
-  },
-  allImagesFinished: () => {
-    // Called after all images with the given selector have finished
   },
   defaultImage: 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' // An empty image, can be replaced with a known image URL
 }).lazy(selector);
