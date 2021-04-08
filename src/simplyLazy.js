@@ -1,4 +1,4 @@
-/* By Max Poshusta | v1.0.4 | https://github.com/maxshuty/simply-lazy */
+/* By Max Poshusta | v1.1.0 | https://github.com/maxshuty/simply-lazy */
 
 const SimplyLazy = (options) => {
   const observer = new IntersectionObserver((entries, observer) => {
@@ -46,10 +46,6 @@ const SimplyLazy = (options) => {
       document.querySelectorAll(selector).forEach((el) => {
         observer.observe(el);
       });
-
-      if (options && options.allImagesFinished) {
-        options.allImagesFinished();
-      }
     },
   };
 };
