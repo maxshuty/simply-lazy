@@ -46,6 +46,10 @@ const SimplyLazy = (options) => {
       document.querySelectorAll(selector).forEach((el) => {
         observer.observe(el);
       });
+
+      if (options && options.allImagesFinished) {
+        options.allImagesFinished();
+      }
     },
   };
 };
