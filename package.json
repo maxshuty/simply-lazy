@@ -1,5 +1,5 @@
 {
-  "name": "easy-lazy-loader",
+  "name": "simply-lazy",
   "version": "1.0.2",
   "description": "An easy to implement and lightweight lazyloader for images",
   "main": "./src/easyLazyLoader.js",
