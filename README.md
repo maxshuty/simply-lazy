@@ -8,7 +8,13 @@ See the [Browser Support](#browser-support) section for more information regardi
 
 [View the live demo here](https://maxshuty.github.io/simply-lazy/). This GitHub pages demo is hosted in this repository's `/docs` directory for you to see exactly how it is used.
 
-## Quick Setup Guide
+### Install through npm:
+
+```
+npm i simply-lazy
+```
+
+### Self Hosting:
 
 Lazy loading doesn't have to be complicated. It's as simple as these 3 steps:
 
