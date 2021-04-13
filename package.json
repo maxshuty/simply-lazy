@@ -1,5 +1,5 @@
 {
-  "name": "simply-lazy",
+  "name": "simply-lazy-test",
   "version": "1.1.0",
   "description": "An easy to implement and lightweight lazyloader for images",
   "main": "./src/simplyLazy.js",
