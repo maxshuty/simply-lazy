@@ -1,5 +1,10 @@
 // DOM is loaded at this point, this is the pure JS version of $(document).ready()
 document.addEventListener('DOMContentLoaded', function () {
+  const allLazyImgs = document.querySelectorAll('[data-src]');
+  allLazyImgs.forEach((imgEl) => {
+    imgEl;
+  });
+
   let counter = 0;
   const counterEl = document.getElementById('counter');
   const loadedImagesEl = document.getElementById('loadedImages');
@@ -17,6 +22,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     loadedImagesEl.innerHTML += `<div>${counter}. ${el.getAttribute('src')}</div>`;
+  };
+
+  const removeLoadingIndicator = (el) => {
+    if (!el) {
+      return;
+    }
+
+    el.classList.remove('loader');
   };
 
   // Initializing SimplyLazy for all `img` elements
