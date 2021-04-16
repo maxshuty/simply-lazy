@@ -24,14 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
     loadedImagesEl.innerHTML += `<div>${counter}. ${el.getAttribute('src')}</div>`;
   };
 
-  const removeLoadingIndicator = (el) => {
-    if (!el) {
-      return;
-    }
-
-    el.classList.remove('loader');
-  };
-
   // Initializing SimplyLazy for all `img` elements
   SimplyLazy({
     onImageLoad: (el) => {
