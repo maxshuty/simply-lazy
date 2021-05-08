@@ -36,6 +36,18 @@ Lazy loading doesn't have to be complicated. It's as simple as these 3 steps:
 SimplyLazy(optionalOptions).lazy(selector)
 ```
 
+Any selector that works for `querySelectorAll` will work for the `selector`.
+
+For example:
+
+```
+// Using a CSS class:
+SimplyLazy(optionalOptions).lazy('.lazyload')
+
+// Using a data attribute:
+SimplyLazy(optionalOptions).lazy('[data-lazy]')
+```
+
 Additionally there is an `options` object you can use to get callbacks or set default information.
 
 ## Callbacks
