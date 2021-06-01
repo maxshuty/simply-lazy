@@ -1,3 +1,7 @@
+// This is the script used to uglify and minify the simplyLazy.js and it will place the 
+// minified script in both the `./dist` directory and the `./docs` directory so that the 
+// GitHub pages is automatically updated as well
+
 function defaultTask(cb) {
   cb();
 }
