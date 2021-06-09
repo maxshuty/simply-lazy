@@ -16,9 +16,9 @@ npm i simply-lazy
 
 ### Self Hosting:
 
-Lazy loading doesn't have to be complicated. It's as simple as these 3 steps:
+Lazy loading doesn't have to be complicated. It's as simple as:
 
-1. Add the script:
+1. Adding the script:
 
 ```
 <script type="text/javascript" src="./simplyLazy.min.js"></script>
