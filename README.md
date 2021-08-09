@@ -1,6 +1,6 @@
 # Simply Lazy
 
-A simple, lightweight (0.6kb), pure JavaScript image lazy loader that even works in IE\* utilizing the built in `IntersectionObserver` API in your favorite browser.
+A simple & lightweight (0.6kb), pure JavaScript image lazy loader that even works in IE\* utilizing the built in `IntersectionObserver` API in your favorite browser.
 
 See the [Browser Support](#browser-support) section for more information regarding browser support.
 
