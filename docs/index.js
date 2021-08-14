@@ -21,7 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    loadedImagesEl.innerHTML += `<div>${counter}. ${el.getAttribute('src')}</div>`;
+    loadedImagesEl.innerHTML += `
+      <div>
+        ${counter}. ${el.getAttribute('src')}
+      </div>
+    `;
   };
 
   // Initializing SimplyLazy for all `img` elements
