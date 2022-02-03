@@ -29,6 +29,7 @@ gulp.task('js-minify', function () {
       })
     )
     .pipe(
+      headerComment(
     .pipe(gulp.dest('./dist'))
     .pipe(gulp.dest('./docs'));
 });
