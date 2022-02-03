@@ -28,6 +28,7 @@ gulp.task('js-minify', function () {
         path.extname = '.min.js';
       })
     )
+    .pipe(
     .pipe(gulp.dest('./dist'))
     .pipe(gulp.dest('./docs'));
 });
