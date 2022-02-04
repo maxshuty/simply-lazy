@@ -32,6 +32,7 @@ gulp.task('js-minify', function () {
       headerComment(
         'Max Poshusta | v1.1.0 | https://github.com/maxshuty/simply-lazy | https://www.linkedin.com/in/maxposhusta'
       )
+    )
     .pipe(gulp.dest('./dist'))
     .pipe(gulp.dest('./docs'));
 });
