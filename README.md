@@ -6,7 +6,7 @@ See the [Browser Support](#browser-support) section for more information regardi
 
 ## Live DEMO
 
-[**View the live demo here**](https://maxshuty.github.io/simply-lazy/). 
+[**View the live demo here**](https://maxshuty.github.io/simply-lazy/).
 
 This demo is hosted in this same repository's [**`/docs`**](https://github.com/maxshuty/simply-lazy/tree/main/docs) directory for you to see exactly how it is used.
 
@@ -107,4 +107,4 @@ Find a bug or want a new feature? Create an issue or a feature request [here](ht
 
 ## Contributors
 
-Max Poshusta
+[**Max Poshusta**](https://www.linkedin.com/in/maxposhusta/)
