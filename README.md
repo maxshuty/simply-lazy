@@ -40,27 +40,29 @@ SimplyLazy(optionalOptions).lazy(selector)
 
 Any selector that works for `querySelectorAll` will work for the `selector`. For example, you can add a CSS class like `<img data-src="/path/to/img.jpg" class="lazyload" />` and then pass `.lazyload` as the selector. Alternatively you could pass `img` if you want all images to be lazy loaded. 
 
-Additional examples. Given this HTML:
+Additional examples of initialization with a selector... Given this HTML:
 ```
 <img data-src="/path/to/img.jpg" class="lazyload" />
 ```
 
-and initializing it using:
+and initializing this a class selector:
 ```
 // Using a CSS class:
 SimplyLazy(optionalOptions).lazy('.lazyload')
 ```
 
-Or:
+Or given this HTML:
 ```
 <img data-src="/path/to/img.jpg" data-lazy />
 ```
 
-and initializing it using:
+and initializing it using a data selector:
 ```
 // Using a data attribute:
 SimplyLazy(optionalOptions).lazy('[data-lazy]')
 ```
+
+The point being that *any* valid CSS selector will work here.
 
 Additionally there is an `options` object you can use to get callbacks or set default information.
 
