@@ -40,8 +40,7 @@ SimplyLazy(optionalOptions).lazy(selector)
 
 Any selector that works for `querySelectorAll` will work for the `selector`. For example, you can add a CSS class like `<img data-src="/path/to/img.jpg" class="lazyload" />` and then pass `.lazyload` as the selector. Alternatively you could pass `img` if you want all images to be lazy loaded. 
 
-More examples:
-Given this HTML:
+Additional examples. Given this HTML:
 ```
 <img data-src="/path/to/img.jpg" class="lazyload" />
 ```
